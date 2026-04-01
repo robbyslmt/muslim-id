@@ -74,10 +74,16 @@ export function usePrayerTimes() {
     const interval = setInterval(() => {
       setCountdown(getCountdown(nextPrayer.timestamp, Date.now()));
       
-      // If countdown finishes, re-calculate next prayer
+      // If countdown finishes, re-calculate next prayer and play Adzan
       if (Date.now() >= nextPrayer.timestamp) {
          if (times) {
             setNextPrayer(getNextPrayer(times, new Date()));
+            
+            // Play Audio
+            try {
+              const audio = new Audio('/audio/adzan.mp3');
+              audio.play().catch((err) => console.log('Audio blocked by browser policy:', err));
+            } catch (e) {}
          }
       }
     }, 1000);

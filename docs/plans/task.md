@@ -30,8 +30,8 @@
 | 13 | Kiblat Page — Qibla Compass           | 3     | ✅ Done        |
 | 14 | Quran Page — Surah List & Detail      | 3     | ✅ Done        |
 | 15 | Doa Page — Categories & Cards         | 3     | ✅ Done        |
-| 16 | Lainnya — Tasbih, Zakat, Calendar     | 3     | ⬜ Pending     |
-| 17 | PWA Configuration                     | 4     | ⬜ Pending     |
-| 18 | Adzan Audio                           | 4     | ⬜ Pending     |
-| 19 | Responsive Polish & Animations        | 4     | ⬜ Pending     |
-| 20 | Integration Testing & Verification    | 4     | ⬜ Pending     |
+| 16 | Lainnya — Tasbih, Zakat, Calendar     | 3     | ✅ Done        |
+| 17 | PWA Configuration                     | 4     | ✅ Done        |
+| 18 | Adzan Audio                           | 4     | ✅ Done        |
+| 19 | Responsive Polish & Animations        | 4     | ✅ Done        |
+| 20 | Integration Testing & Verification    | 4     | ✅ Done        |
