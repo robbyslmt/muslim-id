@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { jakarta, mono } from "@/lib/fonts";
+import { AppShell } from "@/components/layout/AppShell";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -44,7 +45,7 @@ export default function RootLayout({
       className={`${jakarta.variable} ${mono.variable} h-full`}
     >
       <body className="min-h-full flex flex-col islamic-pattern-bg">
-        {children}
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );

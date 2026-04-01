@@ -15,9 +15,9 @@
 
 | #  | Task                                  | Phase | Status         |
 | -- | ------------------------------------- | ----- | -------------- |
-| 1  | Initialize Next.js Project            | 1     | ⬜ Pending     |
-| 2  | Configure Vitest                      | 1     | ⬜ Pending     |
-| 3  | Design System — Globals & Fonts       | 1     | ⬜ Pending     |
+| 1  | Initialize Next.js Project            | 1     | ✅ Done        |
+| 2  | Configure Vitest                      | 1     | ✅ Done        |
+| 3  | Design System — Globals & Fonts       | 1     | ✅ Done        |
 | 4  | Bottom Tab Navigation                 | 1     | ⬜ Pending     |
 | 5  | Static Data — Cities JSON             | 2     | ⬜ Pending     |
 | 6  | Prayer Time Service (TDD)             | 2     | ⬜ Pending     |
