@@ -18,9 +18,9 @@
 | 1  | Initialize Next.js Project            | 1     | ✅ Done        |
 | 2  | Configure Vitest                      | 1     | ✅ Done        |
 | 3  | Design System — Globals & Fonts       | 1     | ✅ Done        |
-| 4  | Bottom Tab Navigation                 | 1     | ⬜ Pending     |
-| 5  | Static Data — Cities JSON             | 2     | ⬜ Pending     |
-| 6  | Prayer Time Service (TDD)             | 2     | ⬜ Pending     |
+| 4  | Bottom Tab Navigation                 | 1     | ✅ Done        |
+| 5  | Static Data — Cities JSON             | 2     | ✅ Done        |
+| 6  | Prayer Time Service (TDD)             | 2     | ✅ Done        |
 | 7  | Zakat Calculator Service (TDD)        | 2     | ⬜ Pending     |
 | 8  | Qibla Service (TDD)                   | 2     | ⬜ Pending     |
 | 9  | Quran Service                         | 2     | ⬜ Pending     |
