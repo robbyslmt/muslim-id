@@ -24,9 +24,9 @@
 | 7  | Zakat Calculator Service (TDD)        | 2     | ✅ Done        |
 | 8  | Qibla Service (TDD)                   | 2     | ✅ Done        |
 | 9  | Quran Service                         | 2     | ✅ Done        |
-| 10 | Static Data — Doa/Dzikir JSON         | 2     | ⬜ Pending     |
-| 11 | Static Data — Islamic Dates JSON      | 2     | ⬜ Pending     |
-| 12 | Home Page — Prayer Times              | 3     | ⬜ Pending     |
+| 10 | Static Data — Doa/Dzikir JSON         | 2     | ✅ Done        |
+| 11 | Static Data — Islamic Dates JSON      | 2     | ✅ Done        |
+| 12 | Home Page — Prayer Times              | 3     | ✅ Done        |
 | 13 | Kiblat Page — Qibla Compass           | 3     | ⬜ Pending     |
 | 14 | Quran Page — Surah List & Detail      | 3     | ⬜ Pending     |
 | 15 | Doa Page — Categories & Cards         | 3     | ⬜ Pending     |

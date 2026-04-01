@@ -1,0 +1,13 @@
+[
+  { "month": 1, "day": 1, "name": "Tahun Baru Hijriah (1 Muharram)", "description": "Peringatan hijrahnya Nabi Muhammad SAW dari Mekkah ke Madinah." },
+  { "month": 1, "day": 10, "name": "Hari Asyura (10 Muharram)", "description": "Puasa sunnah Asyura yang dapat menghapus dosa setahun yang lalu." },
+  { "month": 3, "day": 12, "name": "Maulid Nabi SAW (12 Rabiul Awal)", "description": "Peringatan hari kelahiran Nabi Muhammad SAW." },
+  { "month": 7, "day": 27, "name": "Isra' Mi'raj (27 Rajab)", "description": "Perjalanan di malam hari dari Masjidil Haram ke Masjidil Aqsa, lalu naik ke Sidratul Muntaha." },
+  { "month": 8, "day": 15, "name": "Nisfu Sya'ban", "description": "Pertengahan bulan Sya'ban, malam yang penuh ampunan." },
+  { "month": 9, "day": 1, "name": "Awal Puasa Ramadhan", "description": "Bulan suci dimana Al-Quran diturunkan, umat Islam diwajibkan berpuasa." },
+  { "month": 9, "day": 17, "name": "Nuzulul Quran (17 Ramadhan)", "description": "Peringatan turunnya ayat pertama Al-Quran kepada Nabi Muhammad SAW." },
+  { "month": 10, "day": 1, "name": "Idul Fitri (1 Syawal)", "description": "Hari raya kemenangan setelah sebulan penuh berpuasa Ramadhan." },
+  { "month": 12, "day": 9, "name": "Hari Arafah (9 Dzulhijjah)", "description": "Puncak ibadah haji, jamaah wukuf di Arafah. Sangat dianjurkan puasa bagi yang tidak berhaji." },
+  { "month": 12, "day": 10, "name": "Idul Adha (10 Dzulhijjah)", "description": "Hari Raya Kurban memperingati kesabaran Nabi Ibrahim AS." },
+  { "month": 12, "day": 11, "name": "Hari Tasyrik", "description": "Hari ke-11, 12, 13 Dzulhijjah dimana diharamkan berpuasa." }
+]

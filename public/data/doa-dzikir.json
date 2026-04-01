@@ -1,0 +1,59 @@
+[
+  {
+    "category": "Dzikir Pagi",
+    "doas": [
+      {
+        "title": "Membaca Ayat Kursi",
+        "arabic": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ ...",
+        "latin": "Allāhu lā ilāha illā huwal-ḥayyul-qayyūm, lā ta'khużuhū sinatuw wa lā naum...",
+        "translation": "Allah, tidak ada tuhan selain Dia. Yang Mahahidup, Yang terus-menerus mengurus (makhluk-Nya), tidak mengantuk dan tidak tidur...",
+        "source": "Al-Baqarah: 255"
+      },
+      {
+        "title": "Dzikir Perlindungan (3x)",
+        "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+        "latin": "Bismillahilladzi la yadhurru ma'asmihi syai'un fil ardhi wa laa fis sama'i wa huwas sami'ul 'alim.",
+        "translation": "Dengan nama Allah yang bila dinaungi nama-Nya tidak ada suatu pun di bumi maupun di langit yang dapat memberi mudarat, dan Dialah Yang Maha Mendengar lagi Maha Mengetahui.",
+        "source": "HR. Abu Daud & Tirmidzi"
+      }
+    ]
+  },
+  {
+    "category": "Doa Setelah Sholat",
+    "doas": [
+      {
+        "title": "Istighfar (3x)",
+        "arabic": "أَسْتَغْفِرُ اللهَ الْعَظِـيْمِ الَّذِيْ لَااِلَهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ وَأَتُوْبُ إِلَيْهِ",
+        "latin": "Astaghfirullahal 'adzim, alladzi la ilaha illa huwal hayyul qayyum wa atubu ilaih.",
+        "translation": "Aku memohon ampun kepada Allah Yang Maha Agung, yang tidak ada tuhan yang berhak disembah selain Dia, Yang Maha Hidup lagi Maha Berdiri Sendiri, dan aku bertaubat kepada-Nya.",
+        "source": "HR. Muslim"
+      },
+      {
+        "title": "Doa Keselamatan",
+        "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+        "latin": "Allahumma antas salam, wa minkas salam, tabarakta ya dzal jalali wal ikram.",
+        "translation": "Ya Allah, Engkau Mahasejahtera, dan dari-Mu kesejahteraan, Maha Suci Engkau wahai Tuhan yang memiliki keagungan dan kemuliaan.",
+        "source": "HR. Muslim"
+      }
+    ]
+  },
+  {
+    "category": "Doa Harian",
+    "doas": [
+      {
+        "title": "Doa Masuk Rumah",
+        "arabic": "بِسْمِ اللهِ وَلَجْنَا، وَبِسْمِ اللهِ خَرَجْنَا، وَعَلَى رَبِّنَا تَوَكَّلْنَا",
+        "latin": "Bismillahi walajnaa, wa bismillahi kharajnaa, wa 'alaa rabbinaa tawakkalnaa.",
+        "translation": "Dengan nama Allah kami masuk, dengan nama Allah kami keluar, dan hanya kepada Tuhan kami, kami bertawakkal.",
+        "source": "HR. Abu Daud"
+      },
+      {
+        "title": "Doa Keluar Rumah",
+        "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+        "latin": "Bismillahi, tawakkaltu 'alallahi, wa laa hawla wa laa quwwata illaa billaah.",
+        "translation": "Dengan menyebut nama Allah, aku bertawakkal kepada-Nya. Tidak ada daya dan kekuatan kecuali dengan (pertolongan) Allah.",
+        "source": "HR. Abu Daud & Tirmidzi"
+      }
+    ]
+  }
+]
