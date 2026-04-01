@@ -27,9 +27,9 @@
 | 10 | Static Data — Doa/Dzikir JSON         | 2     | ✅ Done        |
 | 11 | Static Data — Islamic Dates JSON      | 2     | ✅ Done        |
 | 12 | Home Page — Prayer Times              | 3     | ✅ Done        |
-| 13 | Kiblat Page — Qibla Compass           | 3     | ⬜ Pending     |
-| 14 | Quran Page — Surah List & Detail      | 3     | ⬜ Pending     |
-| 15 | Doa Page — Categories & Cards         | 3     | ⬜ Pending     |
+| 13 | Kiblat Page — Qibla Compass           | 3     | ✅ Done        |
+| 14 | Quran Page — Surah List & Detail      | 3     | ✅ Done        |
+| 15 | Doa Page — Categories & Cards         | 3     | ✅ Done        |
 | 16 | Lainnya — Tasbih, Zakat, Calendar     | 3     | ⬜ Pending     |
 | 17 | PWA Configuration                     | 4     | ⬜ Pending     |
 | 18 | Adzan Audio                           | 4     | ⬜ Pending     |
