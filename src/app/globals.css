@@ -1,0 +1,297 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Amiri font for Arabic Quranic text */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-jakarta), system-ui, sans-serif;
+  --font-mono: var(--font-mono), monospace;
+  --font-heading: var(--font-jakarta), system-ui, sans-serif;
+  --font-arabic: 'Amiri', serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+/* ============================================
+   SholatKu — Glassmorphic Dark Design System
+   ============================================ */
+
+:root {
+  /* SholatKu custom tokens */
+  --sk-bg-primary: hsl(220, 20%, 8%);
+  --sk-bg-card: hsla(180, 15%, 12%, 0.6);
+  --sk-bg-elevated: hsla(160, 20%, 15%, 0.4);
+  --sk-accent: hsl(160, 70%, 45%);
+  --sk-accent-glow: hsla(160, 80%, 50%, 0.3);
+  --sk-accent-secondary: hsl(45, 80%, 60%);
+  --sk-text-primary: hsl(0, 0%, 95%);
+  --sk-text-secondary: hsl(0, 0%, 65%);
+  --sk-text-arabic: hsl(45, 30%, 90%);
+  --sk-prayer-active: hsl(160, 70%, 45%);
+  --sk-prayer-next: hsla(160, 70%, 45%, 0.15);
+  --sk-prayer-passed: hsl(0, 0%, 35%);
+  --sk-glass-border: hsla(160, 40%, 40%, 0.15);
+  --sk-glass-shadow: hsla(0, 0%, 0%, 0.3);
+
+  /* Override shadcn dark theme as default */
+  --background: hsl(220, 20%, 8%);
+  --foreground: hsl(0, 0%, 95%);
+  --card: hsla(180, 15%, 12%, 0.6);
+  --card-foreground: hsl(0, 0%, 95%);
+  --popover: hsl(220, 18%, 12%);
+  --popover-foreground: hsl(0, 0%, 95%);
+  --primary: hsl(160, 70%, 45%);
+  --primary-foreground: hsl(220, 20%, 8%);
+  --secondary: hsla(160, 20%, 15%, 0.4);
+  --secondary-foreground: hsl(0, 0%, 95%);
+  --muted: hsla(220, 15%, 18%, 0.6);
+  --muted-foreground: hsl(0, 0%, 65%);
+  --accent: hsl(160, 70%, 45%);
+  --accent-foreground: hsl(220, 20%, 8%);
+  --destructive: hsl(0, 72%, 51%);
+  --border: hsla(160, 40%, 40%, 0.15);
+  --input: hsla(160, 40%, 40%, 0.2);
+  --ring: hsl(160, 70%, 45%);
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    @apply font-sans;
+    color-scheme: dark;
+  }
+
+  body {
+    background: var(--sk-bg-primary);
+    color: var(--sk-text-primary);
+    font-family: var(--font-jakarta), system-ui, sans-serif;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* ============================================
+   Glassmorphism Utilities
+   ============================================ */
+
+@layer components {
+  .glass-card {
+    background: var(--sk-bg-card);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--sk-glass-border);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px var(--sk-glass-shadow);
+  }
+
+  .glass-elevated {
+    background: var(--sk-bg-elevated);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--sk-glass-border);
+    border-radius: 12px;
+  }
+
+  .glass-nav {
+    background: hsla(220, 20%, 10%, 0.85);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border-top: 1px solid var(--sk-glass-border);
+  }
+
+  /* Arabic text styling */
+  .arabic-text {
+    font-family: 'Amiri', serif;
+    color: var(--sk-text-arabic);
+    direction: rtl;
+    text-align: right;
+    line-height: 2.2;
+    font-size: 1.5rem;
+  }
+
+  /* Mono numbers for prayer times and countdown */
+  .mono-number {
+    font-family: var(--font-mono), monospace;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+
+  /* Active prayer glow */
+  .prayer-glow {
+    box-shadow: 0 0 20px var(--sk-accent-glow),
+                0 0 40px hsla(160, 80%, 50%, 0.1);
+  }
+
+  /* Gold accent for Hijri dates */
+  .gold-accent {
+    color: var(--sk-accent-secondary);
+  }
+}
+
+/* ============================================
+   Animations
+   ============================================ */
+
+@keyframes breathing-glow {
+  0%, 100% {
+    box-shadow: 0 0 15px var(--sk-accent-glow),
+                0 0 30px hsla(160, 80%, 50%, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px var(--sk-accent-glow),
+                0 0 50px hsla(160, 80%, 50%, 0.2);
+  }
+}
+
+@keyframes pulse-ring {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
+
+@keyframes tasbih-bounce {
+  0% { transform: scale(1); }
+  30% { transform: scale(0.95); }
+  60% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@keyframes counter-slide-up {
+  0% { transform: translateY(10px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  0% { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes compass-settle {
+  0% { transform: rotate(var(--compass-from)); }
+  100% { transform: rotate(var(--compass-to)); }
+}
+
+@layer utilities {
+  .animate-breathing-glow {
+    animation: breathing-glow 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-ring {
+    animation: pulse-ring 2s ease-in-out infinite;
+  }
+
+  .animate-tasbih-bounce {
+    animation: tasbih-bounce 0.3s ease-out;
+  }
+
+  .animate-counter-slide {
+    animation: counter-slide-up 0.2s ease-out;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 0.2s ease-out;
+  }
+}
+
+/* ============================================
+   Islamic Geometric Pattern (subtle bg)
+   ============================================ */
+
+.islamic-pattern-bg {
+  position: relative;
+}
+
+.islamic-pattern-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340e0d0' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ============================================
+   Responsive Container
+   ============================================ */
+
+.app-container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 16px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .app-container {
+    padding: 0 24px;
+  }
+}
+
+/* ============================================
+   Scrollbar Styling (dark theme)
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsla(160, 40%, 40%, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsla(160, 40%, 40%, 0.5);
+}
