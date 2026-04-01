@@ -21,9 +21,9 @@
 | 4  | Bottom Tab Navigation                 | 1     | ✅ Done        |
 | 5  | Static Data — Cities JSON             | 2     | ✅ Done        |
 | 6  | Prayer Time Service (TDD)             | 2     | ✅ Done        |
-| 7  | Zakat Calculator Service (TDD)        | 2     | ⬜ Pending     |
-| 8  | Qibla Service (TDD)                   | 2     | ⬜ Pending     |
-| 9  | Quran Service                         | 2     | ⬜ Pending     |
+| 7  | Zakat Calculator Service (TDD)        | 2     | ✅ Done        |
+| 8  | Qibla Service (TDD)                   | 2     | ✅ Done        |
+| 9  | Quran Service                         | 2     | ✅ Done        |
 | 10 | Static Data — Doa/Dzikir JSON         | 2     | ⬜ Pending     |
 | 11 | Static Data — Islamic Dates JSON      | 2     | ⬜ Pending     |
 | 12 | Home Page — Prayer Times              | 3     | ⬜ Pending     |
